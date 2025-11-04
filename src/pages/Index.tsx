@@ -89,15 +89,7 @@ export default function Index() {
 
   return (
     <div className="min-h-screen">
-      <div
-        className="relative"
-        style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://cdn.poehali.dev/projects/b078f386-17c5-4ff7-b96d-0afc490eb454/files/a957df14-c92a-423c-9966-bff6587d8c7f.jpg')`,
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center top',
-        }}
-      >
+      <div className="relative bg-gradient-to-b from-blue-50 to-white">
         <header className="backdrop-blur-sm bg-white/90 shadow-md sticky top-0 z-50">
           <div className="container mx-auto px-4 py-4 flex items-center justify-between">
             <div className="flex items-center gap-3">
@@ -131,14 +123,21 @@ export default function Index() {
           </div>
         </header>
 
-        <div className="container mx-auto px-4 py-16 md:py-24">
-          <div className="text-center text-white space-y-4 animate-fade-in">
-            <h2 className="text-4xl md:text-6xl font-bold drop-shadow-lg">
+        <div className="container mx-auto px-4 py-8 md:py-12">
+          <div className="flex flex-col items-center justify-center gap-6">
+            <img 
+              src="https://cdn.poehali.dev/projects/b078f386-17c5-4ff7-b96d-0afc490eb454/files/1603c2d6-5d85-402d-95d2-d8e142c68e34.jpg" 
+              alt="Семья" 
+              className="w-48 h-auto object-contain animate-fade-in"
+            />
+          <div className="text-center text-slate-800 space-y-4 animate-fade-in">
+            <h2 className="text-3xl md:text-5xl font-bold">
               Краевая электронная система подачи заявлений на получение социальной поддержки
             </h2>
-            <p className="text-xl md:text-2xl drop-shadow-md max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
               Краснодарский край
             </p>
+          </div>
           </div>
         </div>
       </div>
