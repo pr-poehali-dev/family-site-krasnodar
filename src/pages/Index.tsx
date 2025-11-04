@@ -14,56 +14,56 @@ const sections = [
     title: 'Главные новости',
     icon: 'Newspaper',
     description: 'Актуальные новости о социальной поддержке и помощи',
-    color: 'bg-blue-50 hover:bg-blue-100',
+    color: 'bg-gray-50 hover:bg-gray-100',
   },
   {
     id: 2,
     title: 'Социальные программы',
     icon: 'Users',
     description: 'Программы поддержки семей и детей Краснодарского края',
-    color: 'bg-green-50 hover:bg-green-100',
+    color: 'bg-gray-50 hover:bg-gray-100',
   },
   {
     id: 3,
     title: 'Социальные пособия и услуги',
     icon: 'Gift',
     description: 'Информация о пособиях и услугах для семей и детей',
-    color: 'bg-orange-50 hover:bg-orange-100',
+    color: 'bg-gray-50 hover:bg-gray-100',
   },
   {
     id: 4,
     title: 'Календарь мероприятий',
     icon: 'Calendar',
     description: 'Предстоящие события и мероприятия',
-    color: 'bg-purple-50 hover:bg-purple-100',
+    color: 'bg-gray-50 hover:bg-gray-100',
   },
   {
     id: 5,
     title: 'Мониторинг и отчетность',
     icon: 'BarChart',
     description: 'Статистические данные и отчетные документы по предоставлению помощи и реализации программ',
-    color: 'bg-pink-50 hover:bg-pink-100',
+    color: 'bg-gray-50 hover:bg-gray-100',
   },
   {
     id: 6,
     title: 'Обратная связь',
     icon: 'MessageSquare',
     description: 'Задайте вопрос или оставьте обращение',
-    color: 'bg-yellow-50 hover:bg-yellow-100',
+    color: 'bg-gray-50 hover:bg-gray-100',
   },
   {
     id: 7,
     title: 'Нормативно-правовая база',
     icon: 'FileText',
     description: 'Законы и нормативные документы',
-    color: 'bg-indigo-50 hover:bg-indigo-100',
+    color: 'bg-gray-50 hover:bg-gray-100',
   },
   {
     id: 8,
     title: 'Часто задаваемые вопросы',
     icon: 'HelpCircle',
     description: 'Ответы на популярные вопросы',
-    color: 'bg-teal-50 hover:bg-teal-100',
+    color: 'bg-gray-50 hover:bg-gray-100',
   },
 ];
 
@@ -97,7 +97,7 @@ export default function Index() {
 
   return (
     <div className="min-h-screen">
-      <div className="relative bg-gradient-to-b from-blue-50 to-white">
+      <div className="relative bg-gradient-to-b from-gray-50 to-white">
         <header className="backdrop-blur-sm bg-white/90 shadow-md sticky top-0 z-50">
           <div className="container mx-auto px-4 py-4 flex items-center justify-between">
             <div className="flex items-center gap-3">
@@ -167,7 +167,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-b from-white to-blue-50 py-12">
+      <section className="bg-gradient-to-b from-white to-gray-50 py-12">
         <div className="container mx-auto px-4">
           <div className="flex items-center gap-3 mb-8">
             <Icon name="Newspaper" size={32} className="text-primary" />
