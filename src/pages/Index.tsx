@@ -90,11 +90,12 @@ export default function Index() {
   return (
     <div className="min-h-screen">
       <div
-        className="relative bg-cover bg-center bg-top"
+        className="relative"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://cdn.poehali.dev/projects/b078f386-17c5-4ff7-b96d-0afc490eb454/files/a957df14-c92a-423c-9966-bff6587d8c7f.jpg')`,
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center top',
         }}
       >
         <header className="backdrop-blur-sm bg-white/90 shadow-md sticky top-0 z-50">
