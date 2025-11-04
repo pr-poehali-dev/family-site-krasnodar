@@ -123,13 +123,7 @@ export default function Index() {
           </div>
         </header>
 
-        <div className="container mx-auto px-4 py-8 md:py-12">
-          <div className="flex flex-col items-center justify-center gap-6">
-            <img 
-              src="https://cdn.poehali.dev/projects/b078f386-17c5-4ff7-b96d-0afc490eb454/files/1603c2d6-5d85-402d-95d2-d8e142c68e34.jpg" 
-              alt="Семья" 
-              className="w-48 h-auto object-contain animate-fade-in"
-            />
+        <div className="container mx-auto px-4 py-12 md:py-16">
           <div className="text-center text-slate-800 space-y-4 animate-fade-in">
             <h2 className="text-3xl md:text-5xl font-bold">
               Краевая электронная система подачи заявлений на получение социальной поддержки
@@ -137,7 +131,6 @@ export default function Index() {
             <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
               Краснодарский край
             </p>
-          </div>
           </div>
         </div>
       </div>
