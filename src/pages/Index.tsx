@@ -171,7 +171,7 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="flex items-center gap-3 mb-8">
             <Icon name="Newspaper" size={32} className="text-primary" />
-            <h2 className="text-3xl font-bold">Актуальные новости</h2>
+            <h2 className="text-3xl font-bold">Главные новости</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {news.map((item) => (
