@@ -92,7 +92,7 @@ export default function Index() {
       <div
         className="relative bg-cover bg-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://cdn.poehali.dev/projects/b078f386-17c5-4ff7-b96d-0afc490eb454/files/4dcc3ce2-0296-486e-8cdc-0da8a38a9ecb.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://cdn.poehali.dev/projects/b078f386-17c5-4ff7-b96d-0afc490eb454/files/e3187b82-7076-4fe0-9afb-56f1794349b4.jpg')`,
         }}
       >
         <header className="backdrop-blur-sm bg-white/90 shadow-md sticky top-0 z-50">
