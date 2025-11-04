@@ -12,14 +12,14 @@ const sections = [
     id: 1,
     title: 'Главные новости',
     icon: 'Newspaper',
-    description: 'Актуальные новости о социальной поддержке семей',
+    description: 'Актуальные новости о социальной поддержке и помощи',
     color: 'bg-blue-50 hover:bg-blue-100',
   },
   {
     id: 2,
     title: 'Социальные программы',
     icon: 'Users',
-    description: 'Программы поддержки семей Краснодарского края',
+    description: 'Программы поддержки семей и детей Краснодарского края',
     color: 'bg-green-50 hover:bg-green-100',
   },
   {
@@ -40,7 +40,7 @@ const sections = [
     id: 5,
     title: 'Мониторинг и отчетность',
     icon: 'BarChart',
-    description: 'Статистика и отчеты по программам',
+    description: 'Статистические данные и отчетные документы по предоставлению помощи и реализации программ',
     color: 'bg-pink-50 hover:bg-pink-100',
   },
   {
@@ -92,7 +92,7 @@ export default function Index() {
       <div
         className="relative bg-cover bg-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://cdn.poehali.dev/projects/b078f386-17c5-4ff7-b96d-0afc490eb454/files/449714d8-a3e2-48e0-9cb5-a256a0bbb8d3.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://cdn.poehali.dev/projects/b078f386-17c5-4ff7-b96d-0afc490eb454/files/4dcc3ce2-0296-486e-8cdc-0da8a38a9ecb.jpg')`,
         }}
       >
         <header className="backdrop-blur-sm bg-white/90 shadow-md sticky top-0 z-50">
@@ -131,7 +131,7 @@ export default function Index() {
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="text-center text-white space-y-4 animate-fade-in">
             <h2 className="text-4xl md:text-6xl font-bold drop-shadow-lg">
-              Портал социальной поддержки семей
+              Краевая электронная система подачи заявлений на получение социальной поддержки
             </h2>
             <p className="text-xl md:text-2xl drop-shadow-md max-w-3xl mx-auto">
               Краснодарский край
