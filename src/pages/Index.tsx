@@ -6,7 +6,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Badge } from '@/components/ui/badge';
 import Icon from '@/components/ui/icon';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+
 
 const sections = [
   {
@@ -57,6 +57,13 @@ const sections = [
     icon: 'FileText',
     description: 'Законы и нормативные документы',
     color: 'bg-indigo-50 hover:bg-indigo-100',
+  },
+  {
+    id: 8,
+    title: 'Часто задаваемые вопросы',
+    icon: 'HelpCircle',
+    description: 'Ответы на популярные вопросы',
+    color: 'bg-teal-50 hover:bg-teal-100',
   },
 ];
 
@@ -227,63 +234,6 @@ export default function Index() {
                 </Button>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-gradient-to-b from-white to-blue-50 py-12">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto">
-            <div className="flex items-center gap-3 mb-8 justify-center">
-              <Icon name="HelpCircle" size={32} className="text-primary" />
-              <h2 className="text-3xl font-bold">Часто задаваемые вопросы</h2>
-            </div>
-            <Accordion type="single" collapsible className="space-y-4">
-              <AccordionItem value="item-1" className="bg-white rounded-lg px-6 border shadow-sm">
-                <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                  Как подать заявление на получение социальной поддержки?
-                </AccordionTrigger>
-                <AccordionContent className="text-slate-600">
-                  Для подачи заявления необходимо зарегистрироваться на портале, заполнить электронную форму заявления и приложить необходимые документы. После регистрации вам будет доступен личный кабинет с возможностью отслеживания статуса заявления.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem value="item-2" className="bg-white rounded-lg px-6 border shadow-sm">
-                <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                  Какие документы необходимы для получения пособий?
-                </AccordionTrigger>
-                <AccordionContent className="text-slate-600">
-                  Базовый пакет документов включает: паспорт заявителя, свидетельства о рождении детей, справку о составе семьи, справку о доходах. Полный перечень документов зависит от вида пособия и указан в разделе "Социальные пособия и услуги".
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem value="item-3" className="bg-white rounded-lg px-6 border shadow-sm">
-                <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                  Сколько времени рассматривается заявление?
-                </AccordionTrigger>
-                <AccordionContent className="text-slate-600">
-                  Стандартный срок рассмотрения заявления составляет до 10 рабочих дней. В случае необходимости дополнительной проверки документов срок может быть продлен до 30 дней. О статусе рассмотрения вы будете уведомлены через личный кабинет и по электронной почте.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem value="item-4" className="bg-white rounded-lg px-6 border shadow-sm">
-                <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                  Могу ли я получить несколько видов поддержки одновременно?
-                </AccordionTrigger>
-                <AccordionContent className="text-slate-600">
-                  Да, семья может получать несколько видов социальной поддержки одновременно, если соответствует критериям каждой программы. Например, можно одновременно получать пособие на детей и участвовать в программе жилищной поддержки.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem value="item-5" className="bg-white rounded-lg px-6 border shadow-sm">
-                <AccordionTrigger className="text-lg font-semibold hover:no-underline">
-                  Куда обратиться, если возникли проблемы с подачей заявления?
-                </AccordionTrigger>
-                <AccordionContent className="text-slate-600">
-                  Вы можете обратиться в службу поддержки через раздел "Обратная связь" на нашем портале, позвонить по телефону горячей линии 8-800-XXX-XX-XX или посетить ближайший центр социальной поддержки населения лично. Наши специалисты помогут решить любые возникшие вопросы.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
           </div>
         </div>
       </section>
