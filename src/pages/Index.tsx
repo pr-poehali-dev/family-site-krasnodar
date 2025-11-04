@@ -26,7 +26,7 @@ const sections = [
     id: 3,
     title: 'Социальные пособия и услуги',
     icon: 'Gift',
-    description: 'Информация о пособиях и услугах для семей',
+    description: 'Информация о пособиях и услугах для семей и детей',
     color: 'bg-orange-50 hover:bg-orange-100',
   },
   {
